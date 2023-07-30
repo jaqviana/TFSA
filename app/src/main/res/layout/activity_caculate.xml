@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/red"
+    tools:context=".CalculateActivity">
+
+    <EditText
+        android:id="@+id/edt_sinyear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="136dp"
+        android:hint="Type the year of your first SIN or year of birth if you were born in Canada"
+        android:textAlignment="center"
+        android:textColor="@color/grey_1"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_currentyear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="312dp"
+        android:hint="Type current year"
+        android:textAlignment="center"
+        android:textColor="@color/grey_1"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginBottom="48dp"
+        android:text="Result"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn2_calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="124dp"
+        android:layout_marginBottom="149dp"
+        android:backgroundTint="@color/red"
+        android:text="Calculate"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold">
+
+    </Button>
+
+
+</RelativeLayout>
+
+
+
+
